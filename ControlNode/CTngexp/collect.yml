@@ -1,0 +1,27 @@
+---
+- name: Create a folder on the control node
+  hosts: localhost
+  tasks:
+    - name: Create /tmp/CTngData if it does not exist
+      file:
+        path: /tmp/CTngData
+        state: directory
+
+- name: Copy data from Monitor nodes to control node
+  hosts: Monitor
+  tasks:
+    - name: Derive item number from hostname
+      set_fact:
+        item_num: "{{ (ansible_hostname | regex_replace('[^0-9]', '')) | int if (ansible_hostname | regex_replace('[^0-9]', '')) != '' else 0 }}"
+      
+    - name: Create folder on the control node for each Monitor
+      delegate_to: localhost
+      file:
+        path: "/tmp/CTngData/{{ ansible_hostname }}"
+        state: directory
+
+    - name: Fetch gossiper_testdata.json from Monitor nodes to control node
+      fetch:
+        src: "/tmp/CTngexp/gossiper_testdata/{{ item_num }}/gossiper_testdata.json"
+        dest: "/tmp/CTngData/{{ ansible_hostname }}/"
+        flat: yes
