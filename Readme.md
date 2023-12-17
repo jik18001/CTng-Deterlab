@@ -13,7 +13,10 @@ This repo contains a step by step guide to setup up the experiments on Deterlab.
 ## Requirements:
 - All the yml files should be in the /project/CTngexp folder on the XDC VM (Ubuntu 22.04)
 - go1.19.9.linux-amd64.tar.gz needs to be the in the /project folder
-
+- the repo used is up to date
+ ```
+go get github.com/jik18001/CTngV2@latest
+```
 ## Step 1: Config generation and setup
 ### Step 1.1: Generate the Node List for Automation
 - Run the following command:
