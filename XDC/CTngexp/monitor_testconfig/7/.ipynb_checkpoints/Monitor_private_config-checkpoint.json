@@ -1,0 +1,8 @@
+{
+  "CA_URLs": [],
+  "Logger_URLs": [],
+  "Signer": "172.30.0.48:8006",
+  "Gossiper_URL": "172.30.0.48:9006",
+  "Inbound_gossiper_port": "9006",
+  "Port": "8006"
+}

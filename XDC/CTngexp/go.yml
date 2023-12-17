@@ -1,0 +1,49 @@
+---
+- name: Setting up go
+  hosts: CA, Logger, Monitor,Control  # This will target all the CA, Logger, and Monitor hosts
+  tasks:
+    # Check if Go archive already exists
+    - name: Check if go1.19.9.linux-amd64.tar.gz already exists
+      stat:
+        path: /tmp/go1.19.9.linux-amd64.tar.gz
+      register: go_archive
+
+    # Distribute Go archive only if it doesn't exist
+    - name: Distribute go1.19.9.linux-amd64.tar.gz to /tmp/
+      copy:
+        src: ../go1.19.9.linux-amd64.tar.gz
+        dest: /tmp/go1.19.9.linux-amd64.tar.gz
+      when: not go_archive.stat.exists
+
+    # Ensure /tmp/go directory exists for extraction
+    - name: Ensure /tmp/go directory exists
+      file:
+        path: /tmp/go
+        state: directory
+
+    # Check if Go binary already exists indicating it's extracted
+    - name: Check if Go is already extracted
+      stat:
+        path: /tmp/go/bin/go
+      register: go_extracted
+
+    # Extract Go archive only if it isn't already extracted
+    - name: Extract go1.19.9.linux-amd64.tar.gz to /tmp/
+      ansible.builtin.unarchive:
+        src: /tmp/go1.19.9.linux-amd64.tar.gz
+        dest: /tmp/
+        remote_src: yes
+      when: not go_extracted.stat.exists
+      
+    # Add Go path to the user's .bashrc
+    - name: Add Go binary to PATH for jik18001 using sudo
+      become: yes  # This will use sudo
+      become_method: sudo
+      become_user: jik18001
+      ansible.builtin.lineinfile:
+        path: /home/jik18001/.bashrc
+        line: 'export PATH=$PATH:/tmp/go/bin'
+        state: present
+
+
+

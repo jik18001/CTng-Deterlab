@@ -1,0 +1,8 @@
+---
+- name: Copy Test1.go to all hosts
+  hosts: all
+  tasks:
+    - name: Copy Test1.go to destination
+      copy:
+        src: /tmp/CTngexp/Test1.go
+        dest: /tmp/CTngexp/Test1.go

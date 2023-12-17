@@ -1,0 +1,62 @@
+---
+- name: Setting up g++ (64-bit only)
+  hosts: CA, Logger, Monitor  # This will target all the CA, Logger, and Monitor hosts
+  tasks:
+    # Update package database
+    - name: Update apt package database
+      apt:
+        update_cache: yes
+      become: yes
+
+    # Install build-essential and other necessary packages
+    - name: Install required packages for building GCC
+      apt:
+        name:
+          - build-essential
+          - libgmp3-dev
+          - libmpfr-dev
+          - libmpc-dev
+        state: present
+      become: yes
+
+    # Distribute the GCC archive to remote hosts
+    - name: Distribute gcc-11.4.0.tar.xz to /tmp/
+      copy:
+        src: ../gcc-11.4.0.tar.xz
+        dest: /tmp/gcc-11.4.0.tar.xz
+
+    # Ensure the extraction directory exists
+    - name: Ensure /tmp/gcc-src directory exists
+      ansible.builtin.file:
+        path: /tmp/gcc-src
+        state: directory
+
+    # Extract the GCC archive
+    - name: Extract gcc-11.4.0.tar.xz to /tmp/gcc-src
+      shell: tar -xf /tmp/gcc-11.4.0.tar.xz -C /tmp/gcc-src
+      args:
+        creates: /tmp/gcc-src
+
+    # Configure GCC (64-bit only)
+    - name: Configure GCC
+      shell: cd /tmp/gcc-src/gcc-11.4.0 && ./configure --prefix=/tmp/gcc-install --disable-multilib
+      args:
+        creates: /tmp/gcc-src/gcc-11.4.0/Makefile
+
+    # Compile GCC
+    - name: Make GCC
+      shell: cd /tmp/gcc-src/gcc-11.4.0 && make
+      args:
+        creates: /tmp/gcc-src/gcc-11.4.0/gcc
+
+    # Install GCC
+    - name: Install GCC
+      shell: cd /tmp/gcc-src/gcc-11.4.0 && make install
+      args:
+        creates: /tmp/gcc-install/bin/g++
+
+    # Print message about updating PATH
+    - name: Print message about updating PATH
+      debug:
+        msg: "Installation complete. Add '/tmp/gcc-install/bin' to your PATH manually by running 'export PATH=$PATH:/tmp/gcc-install/bin'"
+

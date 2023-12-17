@@ -1,0 +1,81 @@
+---
+- name: Run Go programs asynchronously
+  hosts: all
+  gather_facts: yes
+  remote_user: jik18001
+  vars:
+    ca_commands:
+      - "/tmp/go/bin/go run /tmp/CTngexp/Test1.go CA"
+    logger_commands:
+      - "/tmp/go/bin/go run /tmp/CTngexp/Test1.go Logger"
+    monitor_commands:
+      - "/tmp/go/bin/go run /tmp/CTngexp/Test1.go Gossiper"
+      - "/tmp/go/bin/go run /tmp/CTngexp/Test1.go Monitor"
+  tasks:
+    # Derive item number from hostname
+    - name: Derive item number from hostname
+      set_fact:
+        item_num: "{{ (ansible_hostname | regex_replace('[^0-9]', '')) | int if (ansible_hostname | regex_replace('[^0-9]', '')) != '' else 0 }}"
+  
+    # Execute CA commands
+    - name: Execute Go program for CA
+      command:
+        cmd: "{{ ca_commands[0] }} {{ (item_num | int) + (10 * item) }}"
+        chdir: /tmp/CTngexp
+      async: 200
+      poll: 0
+      when: "'CA' in group_names"
+      loop: "{{ range(0, 10) }}"
+      register: ca_async_results
+
+    # Execute Logger commands
+    - name: Execute Go program for Logger
+      command:
+        cmd: "{{ item }} {{ item_num }}"
+        chdir: /tmp/CTngexp
+      async: 200
+      poll: 0
+      when: "'Logger' in group_names"
+      loop: "{{ logger_commands }}"
+      register: logger_async_results
+
+    # Execute Monitor commands
+    - name: Execute Go program for Monitor
+      command:
+        cmd: "{{ item }} {{ item_num }}"
+        chdir: /tmp/CTngexp
+      async: 200
+      poll: 0
+      when: "'Monitor' in group_names"
+      loop: "{{ monitor_commands }}"
+      register: monitor_async_results
+
+    # Introduce a delay before checking the status
+    - name: Introduce a delay before checking the status
+      wait_for:
+        timeout: 200
+      delegate_to: localhost
+
+    # Check Go program execution status for CA
+    - name: Check Go program execution status for CA
+      async_status:
+        jid: "{{ item.ansible_job_id }}"
+      loop: "{{ ca_async_results.results | selectattr('ansible_job_id', 'defined') | list }}"
+      until: "'finished' in item"
+      retries: 3
+
+    # Check Go program execution status for Logger
+    - name: Check Go program execution status for Logger
+      async_status:
+        jid: "{{ item.ansible_job_id }}"
+      loop: "{{ logger_async_results.results | selectattr('ansible_job_id', 'defined') | list }}"
+      until: "'finished' in item"
+      retries: 3
+
+    # Check Go program execution status for Monitor
+    - name: Check Go program execution status for Monitor
+      async_status:
+        jid: "{{ item.ansible_job_id }}"
+      loop: "{{ monitor_async_results.results | selectattr('ansible_job_id', 'defined') | list }}"
+      until: "'finished' in item"
+      retries: 3
