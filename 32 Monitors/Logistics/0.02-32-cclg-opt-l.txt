@@ -1,0 +1,40 @@
+Max Converge Time: [12.102, 11.901, 11.781, 11.887, 12.039, 11.972, 12.447, 12.129, 11.986, 12.069, 11.761, 12.085, 11.723, 11.785, 12.109, 12.383, 11.993, 12.204, 11.749, 12.011, 12.037, 12.338, 11.828]
+Max Converge Time Init: [1.882, 1.67, 1.575, 1.651, 1.843, 1.704, 2.219, 1.89, 1.754, 2.096, 1.53, 2.099, 1.545, 1.533, 1.89, 2.174, 1.717, 1.93, 1.557, 1.987, 2.04, 2.036, 1.58]
+Max Total Traffic Received: [13205.252, 16627.19, 18446.637, 16960.885, 21589.229, 13716.181, 13885.75, 14750.873, 19712.999, 17041.039, 18175.584, 10466.233, 16866.64, 12985.022, 14889.054, 13045.305, 16238.169, 12036.105, 19142.77, 10365.729, 20851.472, 11398.138, 16632.874]
+Average Total Traffic Received: [9685.268, 9501.05, 9756.85, 9390.519, 10305.292, 9066.296, 9794.746, 9387.361, 9273.151, 9649.477, 9674.741, 8160.997, 9948.436, 9509.471, 9576.842, 9483.155, 9090.507, 9471.036, 10244.684, 8353.636, 10421.087, 8304.16, 9710.532]
+Max Total Traffic Sent: [13687.475, 11409.252, 16710.367, 13953.697, 13254.618, 12944.272, 17773.953, 14357.924, 13609.964, 15663.343, 13048.591, 12306.041, 17945.479, 12443.882, 15730.877, 14592.255, 12710.268, 12337.644, 16255.328, 11335.847, 13992.275, 12172.767, 13684.05]
+Average Total Traffic Sent: [8851.374, 8667.156, 8922.956, 8556.625, 9471.398, 8232.402, 8960.852, 8553.467, 8439.31, 8815.583, 8840.847, 7327.103, 9114.542, 8675.577, 8742.949, 8649.261, 8256.613, 8637.195, 9410.843, 7519.742, 9587.193, 7470.266, 8876.638]
+Max Converge Time ():
+Mean: 12.014
+Max : 12.447
+Confidence Interval: (11.927, 12.101)
+
+Max Converge Time Init ():
+Mean: 1.822
+Max : 2.219
+Confidence Interval: (1.725, 1.919)
+
+Average Total Traffic Received ():
+Mean: 9467.795
+Max : 10421.087
+Confidence Interval: (9215.49, 9720.1)
+
+Average Total Traffic Sent: ():
+Mean: 8633.908
+Max : 9587.193
+Confidence Interval: (8381.602, 8886.214)
+
+Average Total Traffic Sent and received: ():
+Mean: 18101.704
+Max : 20008.28
+Confidence Interval: (17597.094, 18606.314)
+
+number of entries in each array
+Length of Max Converge Time: 23
+Length of Average Converge Time: 23
+Length of Max Converge Time Init: 23
+Length of Average Converge Time Init: 23
+Length of Max Total Traffic Received: 23
+Length of Average Total Traffic Received: 23
+Length of Max Total Traffic Sent: 23
+Length of Average Total Traffic Sent: 23

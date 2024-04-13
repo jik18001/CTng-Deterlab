@@ -1,0 +1,40 @@
+Max Converge Time: [11.915, 11.817, 12.188, 11.86, 12.34, 11.806, 12.523, 12.212, 12.293, 12.25, 12.174, 11.822, 12.052, 11.979, 12.057, 12.087, 11.849, 12.421, 12.089, 11.873, 11.964, 11.808]
+Max Converge Time Init: [1.536, 1.518, 1.869, 1.49, 2.065, 1.45, 2.083, 2.111, 2.15, 1.872, 1.837, 1.508, 1.726, 1.621, 1.69, 2.12, 1.5, 2.109, 1.701, 1.474, 1.641, 1.56]
+Max Total Traffic Received: [141028.114, 141028.114, 140993.513, 140962.148, 141231.407, 141187.704, 141030.272, 141030.272, 141028.114, 141062.716, 140994.592, 141063.795, 141063.795, 141029.193, 141185.548, 141095.159, 141030.272, 140965.386, 140961.069, 141028.114, 141135.156, 141062.716]
+Average Total Traffic Received: [140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140769.151, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140769.151, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227, 140778.227]
+Max Total Traffic Sent: [139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139940.977, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139940.977, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0]
+Average Total Traffic Sent: [139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139940.977, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139940.977, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0, 139950.0]
+Max Converge Time ():
+Mean: 12.063
+Max : 12.523
+Confidence Interval: (11.968, 12.158)
+
+Max Converge Time Init ():
+Mean: 1.756
+Max : 2.15
+Confidence Interval: (1.645, 1.867)
+
+Average Total Traffic Received ():
+Mean: 140777.402
+Max : 140778.227
+Confidence Interval: (140776.218, 140778.586)
+
+Average Total Traffic Sent: ():
+Mean: 139949.18
+Max : 139950.0
+Confidence Interval: (139948.003, 139950.357)
+
+Average Total Traffic Sent and received: ():
+Mean: 280726.582
+Max : 280728.227
+Confidence Interval: (280724.221, 280728.943)
+
+number of entries in each array
+Length of Max Converge Time: 22
+Length of Average Converge Time: 22
+Length of Max Converge Time Init: 22
+Length of Average Converge Time Init: 22
+Length of Max Total Traffic Received: 22
+Length of Average Total Traffic Received: 22
+Length of Max Total Traffic Sent: 22
+Length of Average Total Traffic Sent: 22

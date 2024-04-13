@@ -1,0 +1,39 @@
+Max Converge Time Init: [1.605, 2.121, 1.805, 1.934, 1.843, 1.856, 2.157, 2.16, 1.467, 1.988, 2.058, 2.154, 2.21, 1.502, 1.678, 1.739, 1.876, 1.784, 2.07, 1.631, 1.898, 2.051, 2.138]
+Max Total Traffic Received: [12290.27, 8661.926, 10374.909, 10038.342, 10546.071, 9598.348, 12049.689, 8870.25, 8476.034, 15910.931, 10046.559, 8768.076, 9534.564, 12251.803, 11415.448, 11783.932, 11791.132, 10817.689, 9170.86, 9059.162, 14532.548, 11249.692, 11024.657]
+Average Total Traffic Received: [7513.941, 6848.43, 7453.366, 7345.292, 7517.93, 7073.0, 7331.256, 7190.9, 7112.3, 9890.052, 7313.01, 7287.746, 7378.977, 7254.06, 7449.156, 7505.298, 7627.408, 7192.303, 6784.151, 6789.764, 7505.298, 7277.921, 7463.191]
+Max Total Traffic Sent: [10941.838, 9842.124, 9445.726, 10048.804, 12492.845, 10111.445, 9978.008, 8976.085, 9541.074, 14296.417, 9906.07, 11118.75, 9672.392, 9937.636, 10846.004, 10378.32, 10450.584, 9239.861, 10270.455, 8758.79, 10014.629, 9471.42, 13258.806]
+Average Total Traffic Sent: [6685.766, 6020.203, 6625.139, 6517.064, 6689.703, 6244.773, 6503.029, 6362.672, 6284.073, 9018.121, 6484.782, 6459.518, 6550.75, 6425.833, 6620.928, 6677.071, 6799.181, 6364.076, 5955.976, 5961.59, 6677.071, 6449.693, 6634.964]
+Max Converge Time ():
+Mean: 11.966
+Max : 12.275
+Confidence Interval: (11.88, 12.052)
+
+Max Converge Time Init ():
+Mean: 1.901
+Max : 2.21
+Confidence Interval: (1.805, 1.997)
+
+Average Total Traffic Received ():
+Mean: 7395.859
+Max : 9890.052
+Confidence Interval: (7139.913, 7651.805)
+
+Average Total Traffic Sent: ():
+Mean: 6565.738
+Max : 9018.121
+Confidence Interval: (6313.409, 6818.067)
+
+Average Total Traffic Sent and received: ():
+Mean: 13961.597
+Max : 18908.173
+Confidence Interval: (13453.324, 14469.87)
+
+number of entries in each array
+Length of Max Converge Time: 23
+Length of Average Converge Time: 23
+Length of Max Converge Time Init: 23
+Length of Average Converge Time Init: 23
+Length of Max Total Traffic Received: 23
+Length of Average Total Traffic Received: 23
+Length of Max Total Traffic Sent: 23
+Length of Average Total Traffic Sent: 23

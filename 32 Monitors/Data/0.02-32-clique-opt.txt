@@ -1,0 +1,349 @@
+--- 2023-12-14 19:01:27 ---
+Converge Time Statistics:
+Max Converge Time: 13.01
+Average Converge Time: 12.514625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.304
+Average Converge Time Init: 2.10921875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 66606926.0
+Average Total Traffic Received: 43970890.5625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 58922137.0
+Average Total Traffic Sent: 43095195.5625
+
+--- 2023-12-14 19:06:16 ---
+Converge Time Statistics:
+Max Converge Time: 12.946
+Average Converge Time: 12.36090625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.08
+Average Converge Time Init: 2.0603125
+Total Traffic Received Statistics:
+Max Total Traffic Received: 78446723.0
+Average Total Traffic Received: 37338921.25
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 49939812.0
+Average Total Traffic Sent: 36485068.15625
+
+--- 2023-12-14 19:11:05 ---
+Converge Time Statistics:
+Max Converge Time: 12.719
+Average Converge Time: 12.3236875
+Converge Time Init Statistics:
+Max Converge Time Init: 2.029
+Average Converge Time Init: 1.83571875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 56412982.0
+Average Total Traffic Received: 35949580.65625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 55052116.0
+Average Total Traffic Sent: 35095727.5625
+
+--- 2023-12-14 19:15:54 ---
+Converge Time Statistics:
+Max Converge Time: 13.225
+Average Converge Time: 12.746
+Converge Time Init Statistics:
+Max Converge Time Init: 2.304
+Average Converge Time Init: 2.18646875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 47940852.0
+Average Total Traffic Received: 32137893.09375
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 71329446.0
+Average Total Traffic Sent: 31283985.6875
+
+--- 2023-12-14 19:25:32 ---
+Converge Time Statistics:
+Max Converge Time: 13.076
+Average Converge Time: 12.64134375
+Converge Time Init Statistics:
+Max Converge Time Init: 2.295
+Average Converge Time Init: 2.1316875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 58669580.0
+Average Total Traffic Received: 31386570.65625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 48183437.0
+Average Total Traffic Sent: 30532663.25
+
+--- 2023-12-14 19:30:21 ---
+Converge Time Statistics:
+Max Converge Time: 13.136
+Average Converge Time: 12.6705625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.364
+Average Converge Time Init: 2.2055625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 58459582.0
+Average Total Traffic Received: 35166897.46875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 66080087.0
+Average Total Traffic Sent: 34312990.0625
+
+--- 2023-12-14 19:35:08 ---
+Converge Time Statistics:
+Max Converge Time: 12.847
+Average Converge Time: 12.36371875
+Converge Time Init Statistics:
+Max Converge Time Init: 2.026
+Average Converge Time Init: 1.86021875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 68531616.0
+Average Total Traffic Received: 37283966.71875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 53791764.0
+Average Total Traffic Sent: 36430059.3125
+
+--- 2023-12-14 19:39:58 ---
+Converge Time Statistics:
+Max Converge Time: 13.279
+Average Converge Time: 12.873375
+Converge Time Init Statistics:
+Max Converge Time Init: 2.546
+Average Converge Time Init: 2.3706875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 61474836.0
+Average Total Traffic Received: 35909596.40625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 68440968.0
+Average Total Traffic Sent: 35055689.0
+
+--- 2023-12-14 19:49:34 ---
+Converge Time Statistics:
+Max Converge Time: 13.255
+Average Converge Time: 12.90753125
+Converge Time Init Statistics:
+Max Converge Time Init: 2.499
+Average Converge Time Init: 2.3615625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 72255646.0
+Average Total Traffic Received: 36030325.40625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 51841062.0
+Average Total Traffic Sent: 35176418.0
+
+--- 2023-12-14 19:54:20 ---
+Converge Time Statistics:
+Max Converge Time: 12.75
+Average Converge Time: 12.3300625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.016
+Average Converge Time Init: 1.78490625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 64629015.0
+Average Total Traffic Received: 34838126.53125
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 55780392.0
+Average Total Traffic Sent: 33984219.125
+
+--- 2023-12-14 19:59:09 ---
+Converge Time Statistics:
+Max Converge Time: 13.235
+Average Converge Time: 12.8725625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.415
+Average Converge Time Init: 2.29040625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 61922963.0
+Average Total Traffic Received: 34849983.84375
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 70327784.0
+Average Total Traffic Sent: 33996076.4375
+
+--- 2023-12-14 20:03:59 ---
+Converge Time Statistics:
+Max Converge Time: 13.286
+Average Converge Time: 12.80465625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.508
+Average Converge Time Init: 2.32996875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 58885992.0
+Average Total Traffic Received: 34391018.59375
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 48221773.0
+Average Total Traffic Sent: 33537165.5
+
+--- 2023-12-14 20:13:35 ---
+Converge Time Statistics:
+Max Converge Time: 12.945
+Average Converge Time: 12.56165625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.277
+Average Converge Time Init: 2.13703125
+Total Traffic Received Statistics:
+Max Total Traffic Received: 60034410.0
+Average Total Traffic Received: 34244182.96875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 58696609.0
+Average Total Traffic Sent: 33390275.5625
+
+--- 2023-12-14 20:18:25 ---
+Converge Time Statistics:
+Max Converge Time: 12.624
+Average Converge Time: 12.28540625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.017
+Average Converge Time Init: 1.78309375
+Total Traffic Received Statistics:
+Max Total Traffic Received: 84560218.0
+Average Total Traffic Received: 41483611.21875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 57088584.0
+Average Total Traffic Sent: 40629703.8125
+
+--- 2023-12-14 20:23:12 ---
+Converge Time Statistics:
+Max Converge Time: 13.084
+Average Converge Time: 12.71203125
+Converge Time Init Statistics:
+Max Converge Time Init: 2.317
+Average Converge Time Init: 2.1798125
+Total Traffic Received Statistics:
+Max Total Traffic Received: 80236622.0
+Average Total Traffic Received: 36738530.34375
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 67958887.0
+Average Total Traffic Sent: 35884622.9375
+
+--- 2023-12-14 20:28:00 ---
+Converge Time Statistics:
+Max Converge Time: 12.926
+Average Converge Time: 12.62190625
+Converge Time Init Statistics:
+Max Converge Time Init: 2.363
+Average Converge Time Init: 2.18175
+Total Traffic Received Statistics:
+Max Total Traffic Received: 69768454.0
+Average Total Traffic Received: 38449217.15625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 64472563.0
+Average Total Traffic Sent: 37595309.75
+
+--- 2023-12-14 20:37:38 ---
+Converge Time Statistics:
+Max Converge Time: 12.8
+Average Converge Time: 12.27225
+Converge Time Init Statistics:
+Max Converge Time Init: 1.915
+Average Converge Time Init: 1.769
+Total Traffic Received Statistics:
+Max Total Traffic Received: 71372571.0
+Average Total Traffic Received: 41264789.90625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 59457815.0
+Average Total Traffic Sent: 40410882.5
+
+--- 2023-12-14 20:42:27 ---
+Converge Time Statistics:
+Max Converge Time: 12.813
+Average Converge Time: 12.3864375
+Converge Time Init Statistics:
+Max Converge Time Init: 2.009
+Average Converge Time Init: 1.84390625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 60363883.0
+Average Total Traffic Received: 34989037.78125
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 52378604.0
+Average Total Traffic Sent: 34135130.375
+
+--- 2023-12-14 20:47:16 ---
+Converge Time Statistics:
+Max Converge Time: 13.139
+Average Converge Time: 12.7613125
+Converge Time Init Statistics:
+Max Converge Time Init: 2.253
+Average Converge Time Init: 2.11178125
+Total Traffic Received Statistics:
+Max Total Traffic Received: 62858632.0
+Average Total Traffic Received: 24389678.34375
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 38828048.0
+Average Total Traffic Sent: 23535770.9375
+
+--- 2023-12-14 20:52:05 ---
+Converge Time Statistics:
+Max Converge Time: 12.706
+Average Converge Time: 12.26859375
+Converge Time Init Statistics:
+Max Converge Time Init: 1.956
+Average Converge Time Init: 1.8030625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 59480374.0
+Average Total Traffic Received: 38525750.71875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 49804321.0
+Average Total Traffic Sent: 37671843.3125
+
+--- 2023-12-14 21:01:40 ---
+Converge Time Statistics:
+Max Converge Time: 13.488
+Average Converge Time: 12.99171875
+Converge Time Init Statistics:
+Max Converge Time Init: 2.644
+Average Converge Time Init: 2.47565625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 86228462.0
+Average Total Traffic Received: 46509350.4375
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 77717442.0
+Average Total Traffic Sent: 45854031.375
+
+--- 2023-12-14 21:06:28 ---
+Converge Time Statistics:
+Max Converge Time: 12.956
+Average Converge Time: 12.4783125
+Converge Time Init Statistics:
+Max Converge Time Init: 2.197
+Average Converge Time Init: 2.00459375
+Total Traffic Received Statistics:
+Max Total Traffic Received: 56724015.0
+Average Total Traffic Received: 32982276.8125
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 55049921.0
+Average Total Traffic Sent: 32128423.71875
+
+--- 2023-12-14 21:11:17 ---
+Converge Time Statistics:
+Max Converge Time: 12.462
+Average Converge Time: 12.1989375
+Converge Time Init Statistics:
+Max Converge Time Init: 1.957
+Average Converge Time Init: 1.78046875
+Total Traffic Received Statistics:
+Max Total Traffic Received: 55472097.0
+Average Total Traffic Received: 35923712.40625
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 56296909.0
+Average Total Traffic Sent: 35069859.3125
+
+--- 2023-12-14 21:16:06 ---
+Converge Time Statistics:
+Max Converge Time: 13.095
+Average Converge Time: 12.64053125
+Converge Time Init Statistics:
+Max Converge Time Init: 2.315
+Average Converge Time Init: 2.170375
+Total Traffic Received Statistics:
+Max Total Traffic Received: 66268269.0
+Average Total Traffic Received: 37197731.71875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 51260250.0
+Average Total Traffic Sent: 36343824.3125
+
+--- 2023-12-14 21:20:54 ---
+Converge Time Statistics:
+Max Converge Time: 12.746
+Average Converge Time: 12.31559375
+Converge Time Init Statistics:
+Max Converge Time Init: 1.971
+Average Converge Time Init: 1.8100625
+Total Traffic Received Statistics:
+Max Total Traffic Received: 58454508.0
+Average Total Traffic Received: 35322120.46875
+Total Traffic Sent Statistics:
+Max Total Traffic Sent: 49207569.0
+Average Total Traffic Sent: 34468213.0625
